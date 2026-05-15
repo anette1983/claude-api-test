@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse an AWS CloudFormation template and extract all resource logical IDs that are of type 'AWS::Lambda::Function'",
+    "format": "python",
+    "solution_criteria": "The solution should return a list of logical IDs for all Lambda functions defined in the template. Should handle both JSON and YAML CloudFormation formats."
+  },
+  {
+    "task": "Create a JSON IAM policy document that allows a principal to perform read-only operations (GetObject, ListBucket) on a specific S3 bucket named 'my-data-bucket'",
+    "format": "json",
+    "solution_criteria": "The JSON must be valid IAM policy syntax with correct Effect, Action, Resource, and Principal fields. Should grant only read permissions."
+  },
+  {
+    "task": "Write a regex pattern to match and validate AWS ARNs (Amazon Resource Names) in their standard format",
+    "format": "regex",
+    "solution_criteria": "The regex should match valid ARN formats like 'arn:aws:service:region:account-id:resource' and reject invalid formats. Should be flexible enough to handle various AWS services."
+  }
+]
